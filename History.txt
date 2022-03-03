@@ -1,3 +1,6 @@
+= 1.1.6 / 2022-03-02
+  * Integrate with SonarCloud
+  
 = 1.1.6 / 2012-05-25
   * Bug fixes
     * Better handling of utf-8 characters
