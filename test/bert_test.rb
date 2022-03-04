@@ -63,14 +63,14 @@ class BertTest < Test::Unit::TestCase
       assert_equal now.to_i, decoded.to_i
     end
 
-    # should "let me inspect it" do
-    #   puts
-    #   p @ruby
-    #   ruby2 = BERT.decode(@bert)
-    #   p ruby2
-    #   bert2 = BERT.encode(ruby2)
-    #   ruby3 = BERT.decode(bert2)
-    #   p ruby3
-    # end
+    should "let me inspect it" do
+       puts
+       p @ruby
+       ruby2 = BERT.decode(@bert)
+       p ruby2
+       bert2 = BERT.encode(ruby2)
+       ruby3 = BERT.decode(bert2)
+       p ruby3
+    end
   end
 end
