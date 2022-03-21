@@ -103,5 +103,10 @@ class EncoderTest < Test::Unit::TestCase
       before = [1, 2.0, [:foo, 'bar']]
       assert_equal before, BERT::Encoder.convert(before)
     end
+
+    should "leave other stuff alone P2" do
+      before = [1, 2.0, [:foo, 'bar']]
+      assert_equal before, BERT::Encoder.convert(before)
+    end
   end
 end
